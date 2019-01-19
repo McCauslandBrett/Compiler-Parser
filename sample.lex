@@ -1,6 +1,5 @@
 DIGIT [0-9]*
 NUMBER {DIGIT}
-PLUS "+"
 MINUS "-"
 MULT "*"
 DIV "/"
@@ -10,7 +9,7 @@ EQUAL "="
 %%
 {DIGIT} {printf("%s \n", yytext);}
 {NUMBER} {printf("%s \n", yytext);}
-{PLUS} {printf("PLUS \n");}
+"+" {printf("PLUS \n");}
 {MINUS} {printf("MINUS \n");}
 {MULT} {printf("MULT \n");}
 {DIV} {printf("DIV \n");}

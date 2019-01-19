@@ -371,7 +371,7 @@ struct yy_trans_info
 	};
 static yyconst flex_int16_t yy_accept[16] =
     {   0,
-        0,    0,   12,   10,   11,    7,    8,    5,    3,    4,
+        1,    1,   12,   10,   11,    7,    8,    5,    3,    4,
         6,    1,    9,    1,    0
     } ;
 
@@ -635,7 +635,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 10 "sample.lex"
+#line 9 "sample.lex"
 
 #line 641 "lex.yy.c"
 
@@ -722,57 +722,57 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 11 "sample.lex"
+#line 10 "sample.lex"
 {printf("%s \n", yytext);}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 12 "sample.lex"
+#line 11 "sample.lex"
 {printf("%s \n", yytext);}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 13 "sample.lex"
+#line 12 "sample.lex"
 {printf("PLUS \n");}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 14 "sample.lex"
+#line 13 "sample.lex"
 {printf("MINUS \n");}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 15 "sample.lex"
+#line 14 "sample.lex"
 {printf("MULT \n");}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 16 "sample.lex"
+#line 15 "sample.lex"
 {printf("DIV \n");}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 17 "sample.lex"
+#line 16 "sample.lex"
 {printf("L_PAREN \n");}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 18 "sample.lex"
+#line 17 "sample.lex"
 {printf("R_PAREN \n");}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 19 "sample.lex"
+#line 18 "sample.lex"
 {printf("EQUAL \n");}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 20 "sample.lex"
+#line 19 "sample.lex"
 printf("unrecognized character \n");exit(1);
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 21 "sample.lex"
+#line 20 "sample.lex"
 ECHO;
 	YY_BREAK
 #line 779 "lex.yy.c"
@@ -1772,7 +1772,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 21 "sample.lex"
+#line 20 "sample.lex"
 
 
 
